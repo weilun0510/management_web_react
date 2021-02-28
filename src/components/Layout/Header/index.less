@@ -1,0 +1,29 @@
+@import '~antd/es/style/themes/default.less';
+
+@pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+
+.headerWrap{
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+}
+.container{
+  padding: 0 24px;
+  > * {
+  background-color: @popover-bg;
+  border-radius: 4px;
+  box-shadow: @shadow-1-down;
+  }
+  .name{
+    margin-right: 10px;
+  }
+}
+
+.menu {
+  :global(.anticon) {
+    margin-right: 8px;
+  }
+  :global(.ant-dropdown-menu-item) {
+    min-width: 160px;
+  }
+}
+
+

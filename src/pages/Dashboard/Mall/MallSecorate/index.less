@@ -1,0 +1,61 @@
+.mallSecorate {
+  display: flex;
+  .allCmp {
+    padding: 0 10px;
+    .section {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+      border: 1px dashed #999;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      .item {
+        // width: 20px;
+        height: 20px;
+        background-color: red;
+      }
+    }
+  }
+  .cptCustom{
+    flex:1;
+  }
+  .shadow {
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  }
+  .cardWrap {
+    // display: flex;
+    // justify-content: space-between;
+    width: 300px;
+    border: 1px solid transparent;
+    border-bottom: 1px dashed #e3e3e3;
+    &:hover {
+      border: 1px dashed blue;
+      .actions{
+        visibility: visible;
+      }
+    }
+    .actions{
+      visibility: hidden;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: rgba(0, 0, 0, .3);
+      .text{
+        color: #fff;
+        margin-right: 10px;
+      }
+    }
+    .cardContent{
+      padding: 20px 16px;
+    }
+  }
+
+  .activeBorder{
+    border: 1px dashed blue;;
+  }
+
+  .actions{
+    visibility: visible;
+  }
+
+}
